@@ -1,0 +1,12 @@
+name: lForum
+version: 1.1
+main: lightwolf.forum.Forum
+api-version: '1.16'
+commands:
+  forum:
+    description: Register on the forum
+    usage: /forum register <password>
+    permissions:
+      lForum.reload
+      lForum.remove
+
